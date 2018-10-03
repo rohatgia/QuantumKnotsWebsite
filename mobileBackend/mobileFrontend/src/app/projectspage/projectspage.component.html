@@ -1,0 +1,17 @@
+<section class="container">
+    <div class="row">
+      <mat-card class="col-md-6" *ngFor="let project of projects">
+        <ul>
+          <li>
+            {{ project.project_name }}
+          </li>
+          <li>
+            {{ project.project_company }}
+          </li>
+          <li>
+            {{ project.project_description }}
+          </li>
+        </ul>
+      </mat-card>
+    </div>
+  </section>

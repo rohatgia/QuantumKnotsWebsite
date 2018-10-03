@@ -1,12 +1,8 @@
 import {Deserializable} from './deserializable.model';
 
-export class Project implements Deserializable {
+export class Project {
     project_name: string;
     project_company: string;
     project_description: string;
-
-    deserialize(input: any) {
-        Object.assign(this, input);
-        return this;
-    }
+    constructor() { }
 }
