@@ -9,10 +9,10 @@
 <mat-sidenav-container class="example-container">
     <mat-sidenav #drawer mode="side" opened role="navigation">
         <mat-nav-list>
-            <a mat-list-item routerLink='/home'>Home</a>
-            <a mat-list-item routerLink='/projects'>Projects</a>
-            <a mat-list-item routerLink='/about'>About Me</a>
-            <a mat-list-item routerLink='/resume'>Resume</a>
+            <a mat-list-item routerLink='/home' (click)="drawer.toggle()">Home</a>
+            <a mat-list-item routerLink='/projects' (click)="drawer.toggle()">Projects</a>
+            <a mat-list-item routerLink='/about' (click)="drawer.toggle()">About Me</a>
+            <a mat-list-item routerLink='/resume' (click)="drawer.toggle()">Resume</a>
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>
