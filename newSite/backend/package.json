@@ -1,2 +1,25 @@
 {
+	"name": "Quantum-Knots-Backend",
+	"version": "1.0.0",
+	"description": "basic http2 rest server implemented with fastify",
+	"main": "index.js",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"fastify": "^2.8.0",
+		"fastify-auth": "^0.6.0",
+		"fastify-cli": "^1.2.0",
+		"fastify-cors": "^2.1.3",
+		"fastify-jwt": "^1.0.0",
+		"fastify-multipart": "^1.0.2",
+		"fastify-sse": "git+https://github.com/lolo32/fastify-sse.git#c632456",
+		"fastify-url-data": "^2.3.0",
+		"file-type": "^10.9.0",
+		"long": "^4.0.0",
+		"minimist": "^1.2.0",
+		"underscore": "^1.9.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "func() { fastify start -p \"$1\" -a \"$2\" -o index.js; }; func"
+	}
 }
