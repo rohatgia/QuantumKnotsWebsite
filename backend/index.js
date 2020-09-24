@@ -16,6 +16,7 @@ async function routes(fastify, options){
     fastify.register(require('fastify-multipart'));
     fastify.register(require('fastify-auth'));
     fastify.register(require("fastify-sse"));
+    fastify.register(require("fastify-sse-v2"));
 
     fastify.register(require('fastify-url-data'), (err) => {
         if (err){
