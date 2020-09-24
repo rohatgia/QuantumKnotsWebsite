@@ -1,0 +1,50 @@
+@import "styles-variables";
+@import "styles-reset";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~material-design-icons/iconfont/material-icons.css";
+
+body, html {
+    height: 100%;
+}
+
+.dropdowns {
+    padding-top: 0px;
+    position:center;
+    text-align:center;
+    padding-bottom: 0px;
+}
+.dropdown {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    position: center;
+    padding-right:10px;
+    padding-left:10px;
+    overflow: auto;
+    align-items:center;
+}
+
+.mat-form-field {
+    padding-left: 10px;
+}
+
+.mat-form-field-infix {
+    border-top: 0px;
+}
+
+.dropdown-header {
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+}
+
+.configuration {
+    margin-bottom: 0px !important;
+}
+
+.mat-card-actions {
+    padding: 0px !important;
+}
+
+.mat-raised-button {
+    font-size: 20px;
+}
