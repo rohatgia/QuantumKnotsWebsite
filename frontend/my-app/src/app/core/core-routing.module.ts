@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AboutPageComponent } from '../aboutpage/aboutpage.component'
 
 const routes: Routes = [
     {
         path: '',
-        redirectTo: '<>',
+        redirectTo: 'about',
         pathMatch: 'full'
     },
     {
-        path: '<>',
-        component: <>
+        path: 'about',
+        component: AboutPageComponent
     },
     {
         path: '*',
@@ -22,4 +23,4 @@ const routes: Routes = [
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })
-export class CoreRoutingModule;
+export class CoreRoutingModule { }

@@ -1,5 +1,5 @@
 {
-    "name": "Revolution-Server",
+    "name": "QuantumKnots-Server",
     "version": "1.0.0",
     "description": "basic http2 rest server implemented with fastify",
     "main": "index.js",
@@ -13,6 +13,7 @@
         "fastify-multipart": "3.2.0",
         "fastify-sse": "git+https://github.com/lolo32/fastify-sse.git#c632456",
         "fastify-sse-v2": "^2.0.2",
+        "fastify-mongodb": "^3.0.0",
         "fastify-url-data": "^3.0.3",
         "file-type": "^15.0.1",
         "long": "^4.0.0",
